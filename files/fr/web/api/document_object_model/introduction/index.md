@@ -185,7 +185,7 @@ Le tableau suivant décrit brièvement ces types de données.
 
 ## Les interfaces DOM
 
-Un des objectifs de ce guide est de ne pas trop parler de l'héritage abstrait d'interfaces, et d'autres détails d'implémentation, et de se concentrer plutôt sur les objets dans le DOM qui sont les*choses* réelles utilisables pour manipuler la hiérarchie du DOM. Du point de vue du programmeur Web, il est rarement utile de savoir que l'objet représentant l'élément `HTML FORM` reçoit sa propriété **name** de l'interface `HTMLElement`. Dans les deux cas, la propriété désirée est simplement l'objet de formulaire.
+Un des objectifs de ce guide est de ne pas trop parler de l'héritage abstrait d'interfaces, et d'autres détails d'implémentation, et de se concentrer plutôt sur les objets dans le DOM qui sont les *choses* réelles utilisables pour manipuler la hiérarchie du DOM. Du point de vue du programmeur Web, il est rarement utile de savoir que l'objet représentant l'élément `HTML FORM` reçoit sa propriété **name** de l'interface `HTMLElement`. Dans les deux cas, la propriété désirée est simplement l'objet de formulaire.
 
 Cependant, la relation entre les objets et les interfaces qu'ils implémentent dans le DOM peut entrainer une certaine confusion, c'est pourquoi cette section tente de présenter un tant soit peu les interfaces figurant dans la spécification du DOM et la manière dont elles sont rendues disponibles.
 
